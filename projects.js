@@ -1,66 +1,67 @@
 const portfolioData = {
   profile: {
     name: "Candra",
-    title: "UI/UX Student & Developer",
-    words: ["UI/UX Student", "Web Developer", "Designer", "Problem Solver"],
-    bio: "I am a passionate designer and developer specializing in building high-quality, modern interfaces. With a strong eye for UI/UX details and user-centered design, I bridge the gap between visual design and front-end layout.",
+    title: "UI/UX Student & Web Designer",
+    words: ["UI/UX Designer", "Web Designer", "Figma Enthusiast", "Student"],
+    bio: "I am a passionate UI/UX Design and Web Design student. My focus lies in designing visually stunning, highly intuitive, and user-centered digital interfaces. I am currently studying human-computer interaction, interface design guidelines, wireframing, high-fidelity prototyping in Figma, and front-end engineering to bridge the gap between design concepts and live code.",
     resumeUrl: "#",
     avatar: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400&h=400",
     socials: {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
       instagram: "https://instagram.com",
-      email: "candra@example.com"
-    }
+      email: "candra18123@gmail.com"
+    },
+    web3formsKey: "YOUR_ACCESS_KEY_HERE"
   },
   skills: [
     {
-      category: "Frontend Development",
+      category: "UI/UX & Interface Design",
       items: [
-        { name: "HTML5 / CSS3 / ES6+", level: 95, icon: "ri-html5-fill" },
-        { name: "JavaScript (React / Next.js)", level: 85, icon: "ri-reactjs-line" },
-        { name: "Tailwind CSS / Flexbox", level: 90, icon: "ri-css3-fill" },
-        { name: "Responsive Systems", level: 95, icon: "ri-responsive-fill" }
-      ]
-    },
-    {
-      category: "Backend Development",
-      items: [
-        { name: "PHP / Laravel Ecosystem", level: 90, icon: "ri-php-line" },
-        { name: "Node.js / RESTful APIs", level: 80, icon: "ri-node-js-line" },
-        { name: "SQL Databases (MySQL)", level: 85, icon: "ri-database-2-line" },
-        { name: "Git & Version Control", level: 90, icon: "ri-git-branch-line" }
-      ]
-    },
-    {
-      category: "Design & UX Strategy",
-      items: [
-        { name: "Figma UI/UX Prototyping", level: 80, icon: "ri-figma-line" },
+        { name: "Figma UI/UX Prototyping", level: 90, icon: "ri-figma-line" },
         { name: "Wireframing & User Flows", level: 85, icon: "ri-layout-masonry-line" },
-        { name: "Micro-interactions & Animation", level: 80, icon: "ri-magic-line" }
+        { name: "Design Systems & Components", level: 80, icon: "ri-instance-line" },
+        { name: "User Research & Persona Creation", level: 80, icon: "ri-user-search-line" }
+      ]
+    },
+    {
+      category: "Web Design & Frontend Development",
+      items: [
+        { name: "HTML5 / CSS3 Layouts", level: 90, icon: "ri-html5-fill" },
+        { name: "CSS Flexbox & Grid Systems", level: 95, icon: "ri-grid-fill" },
+        { name: "Tailwind CSS / Responsive Design", level: 90, icon: "ri-css3-fill" },
+        { name: "JavaScript (Dynamic Interfaces)", level: 75, icon: "ri-javascript-fill" }
+      ]
+    },
+    {
+      category: "Design Software & Tools",
+      items: [
+        { name: "Adobe Illustrator & Photoshop", level: 75, icon: "ri-paint-brush-line" },
+        { name: "VS Code & Design Handoff", level: 85, icon: "ri-code-box-line" },
+        { name: "Git & Version Control", level: 80, icon: "ri-git-branch-line" }
       ]
     }
   ],
   services: [
     {
-      title: "Custom Web Applications",
-      icon: "ri-code-s-slash-line",
-      description: "Building robust, scalable, and secure web applications tailored to your business needs using Laravel, Next.js, and modern APIs."
-    },
-    {
       title: "UI/UX & Interactive Design",
       icon: "ri-layout-masonry-line",
-      description: "Designing modern, intuitive, and high-fidelity interfaces in Figma with a strong emphasis on micro-interactions and accessibility."
+      description: "Designing modern, intuitive, and high-fidelity interfaces in Figma with a strong emphasis on user patterns, micro-interactions, and accessibility."
     },
     {
-      title: "E-Commerce Development",
-      icon: "ri-shopping-bag-3-line",
-      description: "Setting up and customizing conversion-focused e-commerce storefronts with integrated payment gateways and administrative dash panels."
+      title: "Web Design & Frontend Layouts",
+      icon: "ri-code-s-slash-line",
+      description: "Converting high-fidelity mockups into clean, semantic, and fully responsive web layouts using modern CSS structures and basic interactivity."
     },
     {
-      title: "Performance & SEO Tuning",
+      title: "Design System Engineering",
+      icon: "ri-instance-line",
+      description: "Creating standardized color palettes, typography systems, and reusable component libraries to speed up development work."
+    },
+    {
+      title: "Website Auditing & Redesign",
       icon: "ri-speed-up-line",
-      description: "Improving page load speeds, optimizing database queries, and maximizing SEO scores to rank higher on search engines."
+      description: "Analyzing existing websites for user experience flaws, responsiveness bottlenecks, and slow loading speeds to redesign them for growth."
     }
   ],
   projects: [
@@ -104,27 +105,28 @@ const portfolioData = {
   experience: [
     {
       type: "work",
-      duration: "2024 - Present",
-      role: "Lead Full-Stack Developer",
-      company: "TechNova Solutions",
-      description: "Mentoring junior engineers, designing distributed systems using PHP/Laravel and React, and improving continuous deployment pipelines."
+      duration: "2025 - Present",
+      role: "Freelance UI/UX & Web Designer",
+      company: "Self-Employed",
+      description: "Designing high-fidelity landing page prototypes, user flows, and UI component wireframes for small startup clients. Ensuring responsive developer handoffs."
     },
     {
       type: "work",
-      duration: "2022 - 2024",
-      role: "Frontend Developer",
-      company: "InnoWeb Studio",
-      description: "Developed semantic, responsive interfaces for large client websites. Collaborated closely with UI/UX designers to implement design assets."
+      duration: "2024 - 2025",
+      role: "Junior UI/UX Designer (Intern)",
+      company: "Creative Minds Studio",
+      description: "Assisted in executing UX audits, creating wireframes, building color scheme assets, and maintaining component libraries in Figma."
     },
     {
       type: "education",
-      duration: "2018 - 2022",
-      role: "Bachelor of Computer Science",
-      company: "Aperture University",
-      description: "Graduated with honors. Specialized in Software Engineering, Web Technologies, and Database Administration."
+      duration: "2023 - Present",
+      role: "Information Systems & Design Student",
+      company: "State University",
+      description: "Currently pursuing an undergraduate degree. Actively studying Human-Computer Interaction (HCI), user interaction patterns, web technologies, and front-end system layouts."
     }
   ]
 };
 
 // Make it available on window.portfolioData for vanilla JS loading without bundlers
 window.portfolioData = portfolioData;
+
